@@ -1,0 +1,8 @@
+Steps to run the app:
+
+1) Pull or clone or download the repository from github. 
+2) Run command "npm install" to install all the dependencies.
+3) Connect the device upon which you are gonna run the app.
+4) Make sure they are in same network.
+5) Run command "react-native run-android". 
+6) If the metro bundler doesn't start, then run "react-native start"
