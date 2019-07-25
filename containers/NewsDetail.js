@@ -11,10 +11,10 @@ class NewsDetail extends React.Component {
 
     render() {
       const { navigation } = this.props;
-      const headline = navigation.getParam('headline', 'NO-ID');
-      const author = navigation.getParam('author', 'some default value');
-      const image = navigation.getParam('image', 'some default value');
-      const description = navigation.getParam('description', 'some default value');
+      const headline = navigation.getParam('headline', 'No headline');
+      const author = navigation.getParam('author', 'No author');
+      const image = navigation.getParam('image', 'No Image');
+      const description = navigation.getParam('description', 'No description');
       return (
 
         <ScrollView contentContainerStyle={styles.newsContainerStyles}>
